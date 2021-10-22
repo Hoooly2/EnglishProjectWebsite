@@ -19,5 +19,6 @@ body{
 }
 
 .card:hover {
-	border-color:grey;
+	border-color:yellow;
+	border: 20px;
 }

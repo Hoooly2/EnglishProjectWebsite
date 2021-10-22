@@ -18,6 +18,11 @@ body{
 	display:flex;
 }
 
+.card {
+	border: 50px;
+}
+
 .card:hover {
-	border-color:grey;
+	border-color:yellow;
+	transform: rotate();
 }

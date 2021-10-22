@@ -18,6 +18,11 @@ body{
 	display:flex;
 }
 
+.card {
+	border:1px solid transparent;
+}
+
 .card:hover {
-	border-color:grey;
+	border-color:yellow;
+	border: 20px;
 }

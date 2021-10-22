@@ -13,11 +13,3 @@ body{
 	margin-left: 40px;
 	margin-right: 40px;
 }
-
-.partnerRow {
-	display:flex;
-}
-
-.card:hover {
-	border-color:grey;
-}
