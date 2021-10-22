@@ -19,9 +19,9 @@ body{
 }
 
 .btn-primary {
-	visibility: hidden;
+	display:none;
 }
 
 .card:hover .btn-primary {
-	visibility: visible;
+	display: inline;
 }

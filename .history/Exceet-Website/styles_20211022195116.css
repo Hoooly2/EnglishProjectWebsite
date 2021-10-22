@@ -18,10 +18,7 @@ body{
 	display:flex;
 }
 
-.btn-primary {
-	visibility: hidden;
-}
-
-.card:hover .btn-primary {
-	visibility: visible;
+.card:hover {
+	height: 454px;
+	width: 290px 
 }

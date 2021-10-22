@@ -18,10 +18,10 @@ body{
 	display:flex;
 }
 
-.btn-primary {
-	visibility: hidden;
+.button-primary {
+	display:none;
 }
 
 .card:hover .btn-primary {
-	visibility: visible;
+	display: inline;
 }
