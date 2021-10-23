@@ -22,7 +22,7 @@ body{
 	visibility: hidden;
 }
 .card {
-	border-width: 6px;
+	border-width: 3px;
 }
 
 .card:hover .btn-primary {

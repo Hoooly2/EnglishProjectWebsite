@@ -21,15 +21,12 @@ body{
 .btn-primary {
 	visibility: hidden;
 }
-.card {
-	border-width: 6px;
-}
 
 .card:hover .btn-primary {
 	visibility: visible;
 }
 .card:hover {
-	border-color:yellow;
+	border-color:red;
 }
 .certificateHeader {
 	color: antiquewhite;
