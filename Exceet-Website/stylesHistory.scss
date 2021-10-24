@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #212121;
 }
 
 @media all and (min-width: 992px) {
@@ -14,213 +14,101 @@ body{
 	margin-right: 40px;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
 
-@import url('https://fonts.googleapis.com/css?family=Niramit:300,300i,700');
-
-// reset some browser default styles
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-// colors
-$primary: #1d8cf8;
-$secondary: #4f537b;
-$info: #11cdef;
-$success: #00bf9a;
-$warning: #ff8d72;
-$danger: #fd5d93;
-
-// timeline variables
-$body-bg: #1e1e2f;
-$timeline-before-bg : #222a42;
-$timeline-body-bg: #27293d;
-$timeline-body-round: 3px;
-$timeline-body-shadow: 1px 3px 9px rgba(0,0,0, .1);
-
-body {
-    font-family: 'K2D', sans-serif;
-    background: $body-bg;
-    letter-spacing: 1px;
-}
-
-// page container
-.container {
-    max-width: 650px;
-    margin: 50px auto;
-}
-
-// typography
-p {
-    font-weight: 300;
-    line-height: 1.5;
-    font-size: 14px;
-    opacity: .8;
-}
-
-// timeline style
-.timeline {
-    position: relative;
-    padding-left: 4rem;
-    margin: 0 0 0 30px;
+.timeline-body p {
+    padding: 20px;
     color: white;
-
-    &:before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 4px;
-        height: 100%;
-        background: $timeline-body-bg;
-    }
-
-    .timeline-container {
-        position: relative;
-        margin-bottom: 2.5rem;;
-
-        .timeline-icon {
-            position: absolute;
-            left: -88px;
-            top: 4px;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            text-align: center;
-            font-size: 2rem;
-            background: $secondary;
-
-            i {
-                position: absolute;
-                left: 50%;
-                top: 50%;
-                transform: translate(-50%, -50%);
-            }
-
-            img {
-                width: 100%;
-                height: 100%;
-                border-radius: 50%;
-            }
-        }
-
-        .timeline-body {
-            background: $timeline-body-bg;
-            border-radius: $timeline-body-round;
-            padding: 20px 20px 15px;
-            box-shadow: $timeline-body-shadow;
-
-            &:before {
-                content: '';
-                background: inherit;
-                width: 20px;
-                height: 20px;
-                display: block;
-                position: absolute;
-                left: -10px;
-                transform: rotate(45deg);
-                border-radius: 0 0 0 2px;
-            }
-
-            .timeline-title {
-                margin-bottom: 1.4rem;
-
-                .badge {
-                    background: $secondary;
-                    padding: 4px 8px;
-                    border-radius: 3px;
-                    font-size: 12px;
-                    font-weight: bold;
-                }
-            }
-
-            .timeline-subtitle {
-                font-weight: 300;
-                font-style: italic;
-                opacity: .4;
-                margin-top: 16px;
-                font-size: 11px;
-            }
-        }
-
-        // Primary Timeline
-        &.primary {
-            .badge,
-            .timeline-icon {
-                background: $primary !important;
-            }
-        }
-
-        // Info Timeline
-        &.info {
-            .badge,
-            .timeline-icon {
-                background: $info !important;
-            }
-        }
-
-        // Success Timeline
-        &.success {
-            .badge,
-            .timeline-icon {
-                background: $success !important;
-            }
-        }
-
-        // Warning Timeline
-        &.warning {
-            .badge,
-            .timeline-icon {
-                background: $warning !important;
-            }
-        }
-
-        // Dnager Timeline
-        &.danger {
-            .badge,
-            .timeline-icon {
-                background: $danger !important;
-            }
-        }
-
-    }
+  font-weight: 300;
 }
 
+h4 { 
+    text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 10px;
+}
 
-.author{
-	font-family: inherit;
-	padding: 3em;
-	text-align: center;
-	width: 100%;
-		color: white;
- 
-	a:link,
-	a:visited{
-		color: white;
-		&:hover{
-			text-decoration: none;
-		}
-	}
-	.btn:link,
-	.btn:visited{
-		margin-top: 1em;
-		text-decoration: none;
-		display: inline-block;
-		font-family: inherit;
-		font-weight: 100;
-		color: white;
-		text-align: center;
-		vertical-align: middle;
-		user-select: none;
-		background-color: black;
-		padding: 1.5em 2rem;
-		border-radius: 1em;
-		transition: .5s all;
-		&:hover,
-		&:focus,
-		&:active{
-			background-color: lighten(black, 10%);
-		}
-	}
+.timeline-icon h2{
+    padding: 20px;
+text-align: center;
+color: white;
+font-size: large;
+font-weight: bold;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1 {
+ font-family: 'Saira', sans-serif;;
+ letter-spacing: 1.5px;
+ color: white;
+
+ font-weight: 400;
+ font-size: 2.4em;
+}
+
+.timeline-body{
+margin: 20px;
+}
+
+.timeline-container{
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.2);
+    background-color: #303030;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.timeline-container:hover{
+    box-shadow: 5px 5px 5px 2px rgba(255, 255, 255, 0.5);
+    background-color: #525252;
+    transition: .5s;
+}
+
+#timeline-content {
+  text-align: center;  
+}
+
+/* Timeline */
+
+.timeline {
+  border-left: 4px solid #383838;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;    
+  background: fade(white, 3%);
+  color: fade(white, 80%);
+  font-family: 'Saira', sans-serif;;  
+  margin: 50px auto;  
+  letter-spacing: 0.5px;   
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;   
+  padding: 50px;   
+  list-style: none;
+  text-align: left;  
+  font-weight: 100;  
+  max-width: 50%; 
+  transition: 1s;
+
+  
+  
+  h1 {
+   font-family: 'Saira', sans-serif;;
+   letter-spacing: 1.5px;
+   font-weight: 100;
+   font-size: 1.4em;    
+  }
+  
+  h2, h3 {
+   font-family: 'Saira', sans-serif;;
+   letter-spacing: 1.5px;
+   font-weight: 400;
+   font-size: 1.4em;
+  }
+  
+
 }

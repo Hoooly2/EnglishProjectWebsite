@@ -7,7 +7,7 @@ width: 100%;
 }
 
 body {
-  background: black;
+  background: #212121;
 }
 
 h2 {
@@ -28,7 +28,8 @@ p{
   width: 450px;
   height: 300px;
   margin: 50px;
-  float: left;
+  margin-left: 40%;
+  margin-right: 40%;
   perspective: 500px;
 }
 
@@ -63,11 +64,6 @@ p{
   background: #03446A;
   color: white;
   transform: rotateY( 180deg );
-}
-
-
-body{
-    background-color: black;
 }
 
 @media all and (min-width: 992px) {
