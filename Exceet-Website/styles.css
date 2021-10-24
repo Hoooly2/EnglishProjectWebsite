@@ -25,3 +25,28 @@ body{
 	background-size: cover;
   }
   
+
+.partnerRow {
+	display:flex;
+}
+
+.btn-primary {
+	visibility: hidden;
+}
+.card {
+	border-width: 6px;
+}
+
+.card:hover .btn-primary {
+	visibility: visible;
+}
+.card:hover {
+	border-color:yellow;
+}
+.certificateHeader {
+	color: antiquewhite;
+}
+
+.certificateText {
+	color:antiquewhite;
+}
