@@ -32,6 +32,8 @@ body{
 
 .btn-primary {
 	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.3s linear, opacity 0.3s linear;
 }
 .card {
 	border-width: 6px;
@@ -39,6 +41,7 @@ body{
 
 .card:hover .btn-primary {
 	visibility: visible;
+	opacity: 1;
 }
 .card:hover {
 	border-color:yellow;
